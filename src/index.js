@@ -3,7 +3,7 @@ import { render } from "react-dom";
 
 function Hi ()
 {
-  <p>hello </p>
+  return <p>Hello </p>
 }
 
 render(<Hi />, document.getElementsById("app"));
